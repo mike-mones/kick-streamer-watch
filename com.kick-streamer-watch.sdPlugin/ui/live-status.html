@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Kick Streamer Settings</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 16px;
+      color: white;
+      user-select: none;
+      background-color: #2d2d2d;
+    }
+    .sdpi-wrapper {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .sdpi-item {
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+    }
+    .sdpi-heading {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 4px;
+      color: #cccccc;
+    }
+    .input-group {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 8px;
+        align-items: center;
+    }
+    input[type="text"] {
+      flex-grow: 1;
+      padding: 6px 8px;
+      border-radius: 4px;
+      border: 1px solid #303030;
+      background-color: #222222;
+      color: white;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 6px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .btn-primary {
+        background-color: #0073e6;
+        color: white;
+    }
+    .btn-danger {
+        background-color: #d93025;
+        color: white;
+    }
+    .btn-secondary {
+        background-color: #444;
+        color: white;
+    }
+    .remove-btn {
+        background-color: transparent;
+        color: #999;
+        font-size: 16px;
+        padding: 0 4px;
+        cursor: pointer;
+    }
+    .remove-btn:hover {
+        color: #d93025;
+    }
+    #streamer-list {
+        margin-bottom: 8px;
+    }
+    .auth-buttons {
+        display: flex;
+        gap: 8px;
+        margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sdpi-wrapper">
+    <div class="sdpi-item">
+      <div class="sdpi-heading">Streamers</div>
+      <div id="streamer-list">
+          <!-- Dynamic inputs will go here -->
+      </div>
+      <button id="add-streamer" class="btn-secondary">+ Add Streamer</button>
+    </div>
+    
+    <div class="sdpi-item">
+        <div class="sdpi-heading">Authentication</div>
+        <div class="auth-buttons">
+            <button id="login-button" class="btn-primary">Log In</button>
+            <button id="logout-button" class="btn-danger">Log Out</button>
+        </div>
+    </div>
+  </div>
+
+  <script src="js/live-status.js"></script>
+</body>
+</html>

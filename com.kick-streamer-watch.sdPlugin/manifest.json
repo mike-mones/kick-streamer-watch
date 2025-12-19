@@ -1,0 +1,45 @@
+{
+	"Name": "kick-streamer-watch",
+	"Version": "0.2.0.0",
+	"Author": "mike-mones",
+	"Actions": [
+	  {
+		"Name": "Live Status",
+		"UUID": "com.kick-streamer-watch.live-status",
+		"Icon": "imgs/actions/live-status/icon",
+		"Tooltip": "Displays Kick.com streamer’s live status",
+		"PropertyInspectorPath": "ui/live-status.html",
+		"Controllers": ["Keypad"],
+		"States": [
+		  {
+			"Image": "imgs/actions/live-status/key",
+			"TitleAlignment": "middle"
+		  }
+		]
+	  }
+	],
+	"Category": "kick-streamer-watch",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Lets you know when your favorite Kick streamer is live",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 3,
+	"Software": {
+	  "MinimumVersion": "6.9"
+	},
+	"OS": [
+	  {
+		"Platform": "mac",
+		"MinimumVersion": "12"
+	  },
+	  {
+		"Platform": "windows",
+		"MinimumVersion": "10"
+	  }
+	],
+	"Nodejs": {
+	  "Version": "20"
+	},
+	"URL": "https://github.com/mike-mones/kick-streamer-watch",
+	"UUID": "com.kick-streamer-watch"
+}

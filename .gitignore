@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# Stream Deck files
+*.sdPlugin/bin
+*.sdPlugin/logs
+*.sdPlugin/imgs/cache
+
+# macOS
+**/.DS_Store
+
+# Credentials and environment variables
+credentials.json
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Test output
+test_output.svg
+src/debug-*.ts
+src/test-*.ts

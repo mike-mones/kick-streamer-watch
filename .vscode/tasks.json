@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Restart Stream Deck",
+			"type": "shell",
+			"command": "pkill -f \"Stream Deck\" || true && sleep 2 && open -a \"Elgato Stream Deck\"",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		}
+	]
+}

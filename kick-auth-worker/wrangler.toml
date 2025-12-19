@@ -1,0 +1,8 @@
+name = "kick-auth-worker"
+main = "src/index.ts"
+compatibility_date = "2023-12-18"
+
+[vars]
+# Public variables (Client ID is generally considered public in OAuth flows, but we can keep it secret if we want)
+# We will use secrets for sensitive data
+
