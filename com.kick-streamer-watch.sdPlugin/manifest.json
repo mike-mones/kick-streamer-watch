@@ -18,10 +18,10 @@
 		]
 	  }
 	],
-	"Category": "kick-streamer-watch",
+	"Category": "Kick Streamer Watch",
 	"CategoryIcon": "imgs/plugin/category-icon",
 	"CodePath": "bin/plugin.js",
-	"Description": "Lets you know when your favorite Kick streamer is live",
+	"Description": "Kick Streamer Watch lets you monitor your favorite Kick.com streamers directly from your Stream Deck. Add the Live Status action to a button, log in with your Kick account, and enter any streamer's username — your button will automatically update to show whether they are live or offline, complete with their profile image. Never miss a stream again.",
 	"Icon": "imgs/plugin/marketplace",
 	"SDKVersion": 3,
 	"Software": {
